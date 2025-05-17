@@ -1,4 +1,7 @@
-PDF-to-Speech
-=============
+# PDF-to-Speech
 
-I developed this android application as my mini project for Department of Computing &amp; Information Systems in Sabaragamuwa University of Sri Lanka.  The prime objective of “PDF to Speech” is to create a full-fledged Android application which can convert PDF in to speech. By using this application users can listen to PDF documents while they drive, run, or walk the dog. Before user plays the PDF document, he/she need to select one from his/her device storage (SD card or internal memory) by using file explorer. Then user can play and listen to it as media player. For that system extract text from the PDF and convert in to speech by using speech engine.
+he primary objective of “PDF to Speech” is to develop a full-fledged Android application that can convert PDF documents into speech. With this application, users can listen to PDF content while driving, running, or walking their dog.
+
+Before playing a PDF document, the user must select a file from their device storage (either the SD card or internal memory) using the built-in file explorer. Once selected, the user can play and listen to the document as if using a media player. The system extracts text from the PDF and converts it into speech using a speech engine.
+
+This application was developed as part of my mini project for the Department of Computing and Information Systems at Sabaragamuwa University of Sri Lanka.
