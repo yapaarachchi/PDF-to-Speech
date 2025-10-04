@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:background="@color/white"
+    android:orientation="vertical"
+   
+     >
+     <RelativeLayout 
+     android:layout_width="fill_parent" 
+     android:background="@color/blue" android:layout_height="40dp" android:gravity="center_horizontal">
+         <ImageView android:src="@drawable/header" android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_width="fill_parent"></ImageView>
+         <Button android:layout_height="wrap_content" android:background="@drawable/home_button" android:id="@+id/home" android:layout_width="wrap_content" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:layout_marginRight="15dp"></Button>
+     
+     </RelativeLayout>
+     
+     <RelativeLayout 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" android:background="#edeaf8" android:gravity="center_horizontal">
+         <TextView android:text="TextView"  android:layout_height="wrap_content" android:id="@+id/topic" android:textColor="#97c03d" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_width="wrap_content"></TextView>
+         
+     
+     </RelativeLayout>
+     
+     
+     
+     <RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+       
+        android:layout_marginTop="20dp">
+    </ListView>
+
+      
+  
+    </RelativeLayout>
+    
+</LinearLayout>

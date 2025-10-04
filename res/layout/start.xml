@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/white" android:weightSum="1">
+  
+  
+    <RelativeLayout android:layout_gravity="left" android:layout_height="72dp" android:background="@color/blue" android:layout_width="fill_parent" android:gravity="center">
+        <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:src="@drawable/header" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"></ImageView>
+    </RelativeLayout>
+  
+  
+  <RelativeLayout 
+     android:layout_width="fill_parent" android:layout_height="383dp" android:layout_weight="0.97">
+     
+     
+      <Button android:id="@+id/play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/start_play_button" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginLeft="49dp" android:layout_marginTop="76dp"></Button>
+      <Button android:id="@+id/list" android:text="" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/start_list_button" android:layout_below="@+id/play" android:layout_alignLeft="@+id/play" android:layout_marginTop="88dp"></Button>
+      <Button android:id="@+id/about" android:text=""  android:background="@drawable/start_about_button"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/list" android:layout_alignLeft="@+id/show"></Button>
+      <Button android:id="@+id/show" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/start_show_button" android:layout_above="@+id/list" android:layout_alignParentRight="true" android:layout_marginRight="68dp"></Button>
+     
+  </RelativeLayout>
+  <RelativeLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:background="@color/blue" android:layout_height="26dp"></RelativeLayout>
+    
+</LinearLayout>

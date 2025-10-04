@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:weightSum="1" android:orientation="horizontal"
+  android:background="#60bfec" 
+  >
+  
+  
+  
+    <ImageView android:src="@drawable/splash" android:id="@+id/imageView1" android:layout_height="fill_parent" android:layout_width="fill_parent"></ImageView>
+    
+    
+</LinearLayout>

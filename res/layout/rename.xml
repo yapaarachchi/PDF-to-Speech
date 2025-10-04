@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:background="@color/white"
+    android:orientation="vertical"
+   
+     >
+   
+   
+   <RelativeLayout 
+     android:layout_width="fill_parent" 
+     android:background="@color/blue" android:gravity="center" android:layout_height="40dp">
+         <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:src="@drawable/header" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"></ImageView>
+     
+     </RelativeLayout>
+     
+     <RelativeLayout 
+     android:layout_width="fill_parent" 
+     android:background="#edeaf8"  android:gravity="center_horizontal" android:layout_height="wrap_content">
+         <TextView android:text="Rename the PDF File" android:textColor="#97c03d" android:layout_height="wrap_content" android:id="@+id/topic" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_alignParentLeft="true" android:layout_width="wrap_content"></TextView>
+         
+     
+     </RelativeLayout>
+     <RelativeLayout android:background="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="300dp" android:layout_marginTop="25dp">
+         <EditText android:layout_alignParentRight="true" android:layout_toRightOf="@+id/textView2" android:id="@+id/name" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_marginRight="14dp">
+             <requestFocus></requestFocus>
+         </EditText>
+         <TextView android:layout_alignParentLeft="true" android:textColor="#2077c0" android:layout_marginLeft="10dp" android:layout_alignBaseline="@+id/name" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignBottom="@+id/name" android:text="Name" android:id="@+id/textView1"></TextView>
+         <EditText android:layout_toRightOf="@+id/textView2" android:id="@+id/newname" android:layout_height="wrap_content" android:layout_alignRight="@+id/name" android:layout_width="wrap_content" android:layout_below="@+id/name"></EditText>
+         <TextView android:layout_alignLeft="@+id/textView1" android:textColor="#2077c0" android:layout_alignBaseline="@+id/newname" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignBottom="@+id/newname" android:text="New Name" android:id="@+id/textView2"></TextView>
+         <Button android:text="Rename" android:layout_marginTop="16dp" android:layout_height="wrap_content" android:layout_alignRight="@+id/newname" android:layout_width="wrap_content" android:id="@+id/rename" android:layout_below="@+id/newname"></Button>
+         <Button android:text="Cancel" android:layout_alignBaseline="@+id/rename" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/cancel" android:layout_alignBottom="@+id/rename" android:layout_toLeftOf="@+id/rename"></Button>
+     </RelativeLayout>
+    
+    
+</LinearLayout>

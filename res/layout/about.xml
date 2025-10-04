@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   android:background="@color/white"
+    android:orientation="vertical"
+   
+     android:weightSum="1">
+     <RelativeLayout 
+     android:layout_width="fill_parent" 
+     android:background="@color/blue" android:layout_height="40dp" android:gravity="center_horizontal">
+         <ImageView android:src="@drawable/header" android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_width="fill_parent"></ImageView>
+         <Button android:layout_height="wrap_content" android:background="@drawable/home_button" android:id="@+id/home" android:layout_width="wrap_content" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:layout_marginRight="15dp"></Button>
+     
+     </RelativeLayout>
+     
+     <RelativeLayout 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" android:background="#edeaf8" android:gravity="center_horizontal">
+         <TextView android:text="About Application"  android:layout_height="wrap_content" android:id="@+id/topic" android:textColor="#97c03d" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_width="wrap_content"></TextView>
+         
+     
+     </RelativeLayout>
+     
+     
+     
+     <RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+
+    
+  
+    </RelativeLayout>
+     <RelativeLayout android:layout_width="fill_parent" android:id="@+id/relativeLayout1" android:layout_height="319dp" android:gravity="fill_horizontal">
+         <TextView android:id="@+id/textView1" android:textColor="#2075bd" android:layout_height="wrap_content" android:layout_centerInParent="true"
+          android:textAppearance="?android:attr/textAppearanceSmall" 
+         android:text="Due to the low vision and busy schedules, people face lot of problems when they are going to read PDF. So, PDF to SPeeCH application solve that problem by converts PDF text in to speech. Application can search PDF from the device storage and save to the application memory. After choosing the selection of how to play PDF, users can play the document and listen it as like as listening to song. In mean time application display the content of PDF. Also users can view PDF as a PDF Reader. Important thing is application is not wasting more time than other apps (pdf to speech) in the market. Reason is that the app is not converts text in to media file, it directly converts to speech. So no more time consuming." 
+         
+         
+         android:layout_alignParentTop="true" android:layout_alignParentLeft="true" android:layout_marginLeft="23dp" android:layout_marginTop="22dp" android:layout_width="wrap_content" android:gravity="fill_horizontal|center_horizontal"></TextView>
+     </RelativeLayout>
+     <RelativeLayout android:layout_width="fill_parent" android:id="@+id/relativeLayout2" android:layout_height="wrap_content" android:gravity="center_horizontal">
+         <ImageView android:id="@+id/imageView2" android:src="@drawable/footer" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_width="fill_parent"></ImageView>
+     </RelativeLayout>
+    
+</LinearLayout>

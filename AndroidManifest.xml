@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="susl.cis.yapaarachchi"
+      android:versionCode="1"
+      android:versionName="1.0">
+      
+          
+      
+    <uses-sdk android:minSdkVersion="7" android:maxSdkVersion="9" android:targetSdkVersion="8"/>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".SplashScreen"
+                  
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+				<activity android:name=".Start"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"/>
+                  
+                  <activity android:name=".About"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"/>
+                  
+                  
+				<activity android:name=".LoadFile"
+                  android:label="@string/app_name"
+                  />
+                  
+                  <activity android:name=".LoadFileShowPdf"
+                  android:label="@string/app_name"
+                  />
+                  
+                  
+                  
+         <activity android:name=".LoadFileList"
+                  android:label="@string/app_name"
+                  />
+                  <activity android:name=".Other"
+                  android:label="@string/app_name"/>
+                  
+                  <activity android:name=".RenamePdf"
+                  android:label="@string/app_name"
+                  />
+                  
+                 
+                  
+                  <activity android:name=".PlayPdf"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  />
+                  
+                  <activity android:name=".ShowPdf"
+                  android:label="@string/app_name"/>
+                  
+                  <activity android:name=".VoiceRecognitionDemo"
+                  android:label="@string/app_name"/>
+                  
+                  <activity android:name=".PlayPdf_Pages"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  />
+                  
+                  <activity android:name=".PlayPdf_Whole"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  />
+                  
+                   <activity android:name=".PlayPdf_Page"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  />
+                  
+                  
+                  
+                  <activity android:name=".New"
+                  android:label="@string/app_name"
+                  />
+    </application>
+    
+    <supports-screens android:resizeable="true"
+                      android:smallScreens="true" 
+                      android:normalScreens="true" 
+                      android:largeScreens="true" 
+                     android:anyDensity="true"
+                      />
+</manifest>

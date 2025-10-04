@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:weightSum="1"
+  android:background="@color/white">
+  
+  <RelativeLayout android:layout_height="40dp" android:background="@color/blue" android:layout_width="fill_parent" android:gravity="center">
+      <ImageView android:layout_width="fill_parent" android:src="@drawable/header" android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"></ImageView>
+      <TextView android:layout_height="wrap_content" android:id="@+id/playing" android:textColor="#e91616" android:text="" android:textAppearance="?android:attr/textAppearanceSmall" android:layout_width="wrap_content" android:layout_centerVertical="true" android:layout_alignParentRight="true" android:layout_marginRight="21dp"></TextView>
+  
+  </RelativeLayout>
+  
+    <RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center_horizontal">
+        <TextView android:layout_height="wrap_content" android:textColor="#2075bd" android:id="@+id/pdfName" android:text="name" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_width="wrap_content"></TextView>
+    </RelativeLayout>
+  
+  
+  <RelativeLayout 
+  android:layout_width="fill_parent" 
+  android:layout_height="wrap_content" android:gravity="center_horizontal">
+      <TextView android:layout_height="wrap_content" android:textSize="15dp" android:textColor="#97c03d" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="All Pages-" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"></TextView>
+      <TextView android:layout_height="wrap_content" android:textSize="15dp"  android:textColor="#97c03d" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:id="@+id/page" android:text="page" android:layout_alignParentTop="true" android:layout_toRightOf="@+id/textView1"></TextView>
+  
+  
+  </RelativeLayout>
+  
+  
+  
+  
+  <RelativeLayout 
+  android:layout_width="fill_parent" android:layout_height="266dp">
+  <EditText 
+  android:layout_width="fill_parent" 
+  android:id="@+id/pdfText"
+  android:inputType="textMultiLine" 
+  android:layout_marginLeft="5dp" 
+  android:layout_marginRight="5dp" 
+  android:layout_height="fill_parent">  
+  </EditText>
+  </RelativeLayout>
+  
+  
+  <RelativeLayout 
+  android:layout_gravity="center" 
+  android:gravity="center" 
+  android:layout_width="286dp" android:layout_height="wrap_content">
+       
+      <TextView android:layout_width="wrap_content" 
+      android:textAppearance="?android:attr/textAppearanceSmall" 
+      android:id="@+id/volume" 
+      android:text="volume" 
+      android:textColor="#60bfec"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/seek"
+	  android:layout_alignParentRight="true">
+</TextView>
+      <SeekBar android:layout_height="wrap_content" android:id="@+id/seek" android:layout_width="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentLeft="true"></SeekBar>
+  </RelativeLayout>
+  
+  
+  <RelativeLayout 
+  android:layout_gravity="center" 
+  android:gravity="center" 
+  android:layout_width="286dp" 
+  android:layout_height="wrap_content" 
+  android:layout_weight="0.14">
+  
+  <ToggleButton  android:id="@+id/speak_button" 
+  android:background="@drawable/play_pause" 
+  android:layout_width="wrap_content" 
+  android:layout_height="wrap_content" 
+  android:textOff=""
+  android:textOn=""
+  >
+  </ToggleButton>
+  
+  </RelativeLayout>
+  
+  
+  
+</LinearLayout>
